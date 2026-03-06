@@ -1984,7 +1984,7 @@ font_medium = lv_tiny_ttf_create_data(xiaozhi_font, xiaozhi_font_size, medium_fo
     lv_style_init(&style2);
      lv_style_set_text_font(&style2, font_medium);
     lv_style_set_text_align(&style2, LV_TEXT_ALIGN_CENTER);
-    lv_style_set_text_color(&style2, lv_color_hex(0xFFFFFF));
+    lv_style_set_text_color(&style2, lv_color_hex(0xFFFF00));  // 黄色
  
 
     lv_style_init(&style);
